@@ -2,7 +2,7 @@
 
 Summary:       Mock cartridge for V2 Cartridge SDK
 Name:          openshift-origin-cartridge-mock
-Version:       1.15.3
+Version:       1.15.4
 Release:       1%{?dist}
 Group:         Development/Languages
 License:       ASL 2.0
@@ -38,6 +38,9 @@ test platform functionality. (Cartridge Format V2)
 %doc %{cartridgedir}/LICENSE
 
 %changelog
+* Tue Sep 24 2013 teddythetwig <teddythetwig@gmail.com> 1.15.4-1
+- added 3.0 version to mock manifest (teddythetwig@gmail.com)
+
 * Tue Sep 24 2013 teddythetwig <teddythetwig@gmail.com> 1.15.3-1
 - Feature tests for ssl_to_gear, V3 of mock cart serves https at primary
   endpoint (teddythetwig@gmail.com)
